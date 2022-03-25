@@ -1,0 +1,93 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 62.5%;
+    font-family: 'PT Serif', serif;
+}
+body {
+    background-color: #d3e5ff;
+}
+.container {
+    background-color: white;
+    display: inline-block;
+    min-width: 37rem;
+    min-height: 30rem;
+    margin: 5% 0 20% 25%;
+}
+.text-box {
+    display: flex;
+    margin-left: 4rem;
+    font-size: 3.5rem;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+    color: #2e46f3;
+}
+.form-box {
+    display: inline-flex;
+    flex-wrap: wrap;
+    width: 30rem;
+    margin-left: 4rem;
+}
+input[id=fname], input[id=lname] {
+    background-color: #e6e9ff;
+    width: 13rem;
+    height: 2.3rem;
+    border-style: none;
+    border-radius: 5px;
+    margin: 0 1rem 1rem 0;
+    padding-left: 1rem;
+    color: #2e46f3;
+}
+input[id=email], input[id=phone] {
+    background-color: #dde1fe;
+    width: 13rem;
+    height: 2.3rem;
+    border-style: none;
+    border-radius: 5px;
+    margin: 0 1rem 1rem 0;
+    padding-left: 1rem;
+    color: #2e46f3;
+}
+input[id=address] {
+    background-color: #c7ccfc;
+    border-style: none;
+    border-radius: 5px;
+    width: 27rem;
+    height: 3rem;
+    margin-bottom: 1rem;
+    padding-left: 1rem;
+    color: #2e46f3;
+}
+input[id=msg] {
+    background-color: #a4b0fd;
+    border-style: none;
+    border-radius: 5px;
+    width: 27rem;
+    height: 4rem;
+    margin-bottom: 1rem;
+    padding-left: 1rem;
+    color: #2e46f3;
+}
+.btn {
+    background-color: #233bf5;
+    width: 8rem;
+    text-align: center;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20rem;
+    margin-left: 9.5rem;
+}
+.btn > a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+}
+.thanks p {
+    margin-left: 4rem;
+    margin-top: 1rem;
+    font-size: 0.8rem;
+    color: #76dbc1;
+}
